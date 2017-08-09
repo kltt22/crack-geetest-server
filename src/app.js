@@ -22,6 +22,8 @@ app.use(async (ctx, next) => {
     ctx.state.query.ip = ctx.ip;
     ctx.state.query.path = ctx.path;
     ctx.state.query.query = ctx.query;
+    if (ctx.headers.includes('X-Real-IP'))
+        ctx.state.query.ip = ctx.headers['X-Real-IP'];
 
     await next();
 

@@ -1,0 +1,30 @@
+{
+  "name": "crack-geetest-server",
+  "version": "1.0.0",
+  "description": "web server for crack geetest",
+  "repository": "https://github.com/believedotchenyu/crack-geetest-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geetest",
+    "server"
+  ],
+  "author": "chenyu <believe.chenyu@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "crack-geetest": "file:libs/5.10.10",
+    "js-yaml": "^3.9.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.0.1",
+    "koa-mount": "^3.0.0",
+    "koa-router": "^7.2.1",
+    "log4js": "^2.3.3",
+    "mongoose": "^4.11.6",
+    "mz": "^2.6.0",
+    "should": "^11.2.1",
+    "utility": "^1.12.0"
+  }
+}

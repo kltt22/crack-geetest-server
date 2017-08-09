@@ -1,0 +1,10 @@
+
+SERVER: # 服务器配置
+  HOSTNAME: 127.0.0.1 # 监听的地址
+  PORT: 3000 # 监听的端口
+  COOKIES_KEY: this_is_cookies_key # 好象是加密session使用的
+  URL_PREFIX: http://127.0.0.1:3000 # 地址前缀
+
+MONGODB: # mongodb配置
+  HOSTNAME: 127.0.0.1
+  DATABASE: crack_geetest_server_test

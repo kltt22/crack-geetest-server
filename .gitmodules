@@ -1,0 +1,3 @@
+[submodule "libs/5.10.10"]
+	path = libs/5.10.10
+	url = https://github.com/believedotchenyu/crack-geetest.git

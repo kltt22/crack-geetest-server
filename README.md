@@ -5,7 +5,7 @@
 例:
 
 ```sh
-> curl http://geetest.chenyu0x00.com/api/v1?gt=73a7e78f77d457e28a6ad4f12d4bb63e&challenge=1c383cd30b7c298ab50293adfecb7b187c&site=http%3A%2F%2Fbj.gsxt.gov.cn%2Fsydq%2FloginSydqAction!sydq.dhtml
+> curl "http://geetest.chenyu0x00.com/api/v1?gt=73a7e78f77d457e28a6ad4f12d4bb63e&challenge=1c383cd30b7c298ab50293adfecb7b187c&site=http%3A%2F%2Fbj.gsxt.gov.cn%2Fsydq%2FloginSydqAction"
 ```
 
 ## APIv1

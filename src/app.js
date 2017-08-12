@@ -27,8 +27,11 @@ app.use(async (ctx, next) => {
 
     await next();
 
-    ctx.state.query.success = ctx.body.success;
-    ctx.state.query.body = ctx.body;
+    if (ctx.body) {
+        ctx.state.query.success = ctx.body.success;
+        ctx.state.query.body = ctx.body;
+    }
+
     await ctx.state.query.save();
 });
 
